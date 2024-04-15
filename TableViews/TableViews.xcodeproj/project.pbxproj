@@ -15,6 +15,8 @@
 		576C4D462BCA7A3A0026B444 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 576C4D452BCA7A3A0026B444 /* Base */; };
 		576C4D4E2BCA7BD00026B444 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C4D4D2BCA7BD00026B444 /* TableViewController.swift */; };
 		576C4D502BCA8CC90026B444 /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C4D4F2BCA8CC90026B444 /* DetailsController.swift */; };
+		576C4D522BCD874F0026B444 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C4D512BCD874F0026B444 /* CustomCell.swift */; };
+		576C4D542BCD87970026B444 /* Personne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C4D532BCD87970026B444 /* Personne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		576C4D472BCA7A3A0026B444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		576C4D4D2BCA7BD00026B444 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		576C4D4F2BCA8CC90026B444 /* DetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
+		576C4D512BCD874F0026B444 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		576C4D532BCD87970026B444 /* Personne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				576C4D472BCA7A3A0026B444 /* Info.plist */,
 				576C4D4D2BCA7BD00026B444 /* TableViewController.swift */,
 				576C4D4F2BCA8CC90026B444 /* DetailsController.swift */,
+				576C4D512BCD874F0026B444 /* CustomCell.swift */,
+				576C4D532BCD87970026B444 /* Personne.swift */,
 			);
 			path = TableViews;
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 				576C4D3A2BCA7A390026B444 /* AppDelegate.swift in Sources */,
 				576C4D502BCA8CC90026B444 /* DetailsController.swift in Sources */,
 				576C4D3C2BCA7A390026B444 /* SceneDelegate.swift in Sources */,
+				576C4D522BCD874F0026B444 /* CustomCell.swift in Sources */,
+				576C4D542BCD87970026B444 /* Personne.swift in Sources */,
 				576C4D4E2BCA7BD00026B444 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

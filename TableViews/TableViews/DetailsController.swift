@@ -11,10 +11,15 @@ class DetailsController: UIViewController {
 
     var string: String?
     
+    @IBOutlet weak var titleLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        if let newString = string {
+            titleLabel.text = "String reçue: \(newString)"
+        }
+        
+        
     }
     
 
